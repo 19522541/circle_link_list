@@ -19,7 +19,7 @@ object Node{
       var slower =head
       var faster = slower.get.nextNode()
       while (slower!=None && faster!=slower && faster!=None ){
-        println(slower)
+
         slower = slower.get.nextNode()
         faster = faster.get.nextNode().get.nextNode()
       }
