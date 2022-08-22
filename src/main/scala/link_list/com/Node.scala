@@ -5,29 +5,44 @@ class Node(private var next :Option[Node]=None) {
     this.next= nextNote
     next.get
   }
+  def append(tailNode:Option[Node]):Option[Node]={
+    if(Node.isCircle(Option(this))){
+      return None
+    }
+    var currentNode= this
+
+      while( currentNode.next.isDefined )
+        {
+          currentNode= currentNode.next.get
+        }
+          currentNode.next=tailNode
+    tailNode
+  }
   def nextNode(): Option[Node] ={
      next
   }
 }
 object Node{
   def isCircle(head:Option[Node]): Boolean ={
-
-    if (head==None||head.get.next==None){
-
+    if (head.isEmpty||head.get.next.isEmpty){
       return  false
     } else{
-      var slower =head
-      var faster = slower.get.nextNode()
-      while (slower!=None && faster!=slower && faster!=None ){
+      var slowerIncreasingNode =head
+      var fasterIncreasingNode = slowerIncreasingNode.get.nextNode()
+      while (slowerIncreasingNode.isDefined && fasterIncreasingNode!=slowerIncreasingNode && fasterIncreasingNode.isDefined ){
+        slowerIncreasingNode = slowerIncreasingNode.get.nextNode()
+        if( fasterIncreasingNode.get.nextNode().isDefined){
+          fasterIncreasingNode = fasterIncreasingNode.get.nextNode().get.nextNode()
+        }else{
+          return false
+        }
 
-        slower = slower.get.nextNode()
-        faster = faster.get.nextNode().get.nextNode()
       }
-      if(faster==slower) {
+      if(fasterIncreasingNode==slowerIncreasingNode) {
         return true
       }
     }
 
-    return  false
+    false
   }
 }
