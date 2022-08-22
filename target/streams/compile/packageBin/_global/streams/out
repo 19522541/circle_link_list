@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/cirle_link_list_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list/com/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list/com/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list/com/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list/com/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list/com/Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list/com/Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list/com/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list/com/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	link_list/com/Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/huuvuong/IdeaProjects/cirle_link_list/target/scala-2.13/classes/link_list/com/Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
